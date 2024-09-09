@@ -75,7 +75,7 @@ const Log = () => {
                   Create Account
                 </Link>
               </div>
-              <div className="w-full">
+              <div className="">
                 <GoogleLogin
                   onSuccess={(credentialResponse) => {
                     const decoded = jwtDecode(credentialResponse?.credential);
